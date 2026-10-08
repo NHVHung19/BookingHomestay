@@ -1,0 +1,16 @@
+package com.booking.homestay.employee.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class DetailViewRequest {
+    private Long id;
+
+    private Long id_house;
+
+    private Long id_view;
+}
